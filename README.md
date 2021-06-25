@@ -12,7 +12,7 @@
 [![Stack Overflow][stackoverflow-shield]][stackoverflow.com/users/11175375/adam]
 [![Leetcode][leetcode-shield]][eetcode.com/Hard_Code/]
 -->
-## Basic opencv image manipulation
+## Object Tracking( README will be updated soon)
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -79,16 +79,6 @@ Read, show, clone image in opencv
 
 
 ```
-.
-├── CMakeLists.txt
-├── include
-├── README.md
-├── ressource
-│   └── happy.jpeg
-└── src
-    └── imageBasics.cpp
-
-
 
 ```
 
@@ -185,7 +175,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/zoumson/Image.git
+   git clone https://github.com/zoumson/ObjectTracking.git
    ```
 2. Go to the project directory source
    ```sh
@@ -195,7 +185,7 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    mkdir build &&  mkdir bin 
    ```
-5. Generate the exectutable `imageBasics` and move it to `bin`
+5. Generate the exectutable and move it to `bin`
    ```sh
    cd build && cmake .. && make -j4 && cd ..
    ```
@@ -204,7 +194,7 @@ This is an example of how to list things you need to use the software and how to
 ### Usage
 1. Run for matrix usage 
    ```sh
-   ./bin/imageBasics ./ressource/happy.jpeg
+
    ```
 2. Output
    ```sh
@@ -245,7 +235,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Adama Zouma - <!-- [@your_twitter](https://twitter.com/your_username) -->- stargue49@gmail.com
 
-Project Link: [https://github.com/zoumson/Image](https://github.com/zoumson/Image.git)
+Project Link: [https://github.com/zoumson/ObjectTracking](https://github.com/zoumson/ObjectTracking.git)
 
 
 
